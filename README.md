@@ -1,5 +1,8 @@
 # SAR Agent Harness (Simulation)
 
+<img width="3200" height="3160" alt="SAR Agent Harness Architecture" src="https://github.com/user-attachments/assets/f026d0a5-f1f5-4f99-9a1f-50d9bcc0ef4c" />
+
+
 A small, readable example of an **agent harness** applied to a simulated search-and-rescue (SAR) scenario. It shows the model-vs-harness idea: the LLM only proposes actions as text, while the harness provides the loop, tools, context, memory and safety controls.
 
 > **This is a learning project and a simulation only.** It is not suitable for real search-and-rescue operations. Real SAR work needs validated models, trained professionals and proper incident command procedures.
@@ -257,3 +260,6 @@ These come from a small first test (5 scenarios, one small model, GPT-4o-mini, a
 - The injection test uses one fixed message, and the keyword check is a heuristic that is easy to bypass.
 - With few seeds, provider comparisons are noisy. Use enough runs before drawing conclusions.
 - No triage, shift-handoff evaluation, real data sources, connectivity handling or authentication are included.
+
+## Reference
+https://smruti-rout.hashnode.dev/your-ai-agent-is-not-the-product-a-reference-agent-harness-architecture-for-safety-critical-search-and-rescue
